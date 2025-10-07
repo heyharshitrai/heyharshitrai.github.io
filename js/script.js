@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============== TYPING ANIMATION ==============
     const typingElement = document.querySelector('.typing-effect');
     if (typingElement) {
-        const phrases = ["Python Developer", "Linux Enthusiast", "Cloud Practitioner", "Aspiring Data Scientist"];
+        const phrases = ["Python Developer", "Problem Solver", "Linux Enthusiast", "Cloud Practitioner", "Aspiring Data Scientist"];
         let phraseIndex = 0, letterIndex = 0, currentPhrase = '', isDeleting = false;
         
         function type() {
